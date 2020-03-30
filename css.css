@@ -1,0 +1,104 @@
+<style>
+	
+
+ .nav li a span {margin-left: 10px;}
+
+footer {position:relative;bottom: 0;width: 100%;background-color: black;color: white;text-align: center;}
+
+
+.navbar{width: 100%;position: fixed;background-color: black;display: block; }
+
+
+li a{font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+
+#aa{position: relative;}
+
+
+.product-grid{text-align: center; padding: 0 0 72px; overflow: hidden; position: relative;}
+.product-grid .product-image{position: relative;}
+
+.product-grid .product-image img{width: 100%; height: 444px;}
+
+.product-grid:hover .pic-1{opacity: 0;}
+
+
+.product-grid .social{ width: 150px; padding: 0; margin: 0;  opacity: 0; transform: translateY(-50%) translateX(-50%); position: absolute; top: 60%; left: 50%;}
+.product-grid:hover .social{opacity: 1; }
+.product-grid .social li{display: inline-block} 
+.product-grid .social li a{color: white;background-color: black; font-size: 16px;  height: 40px; width: 40px; margin: 0 2px; display: block; position: relative; }
+.product-grid .social li a:hover{color: black; background-color: royalblue;}
+.product-grid .social li a:after,.product-grid .social li a:before{content: attr(data-tip);color: #fff;background-color: #000;font-size: 12px; letter-spacing: 1px;line-height: 20px; padding: 1px 5px; white-space: nowrap; opacity: 0; transform: translateX(-50%); position: absolute;left: 50%; top: -30%;}
+
+
+
+.product-grid .social li a:hover:after,.product-grid .social li a:hover:before{opacity:1}
+
+
+.product-grid .product-content{background-color:#fff;text-align:center;padding:12px 0;margin:0 auto;position:absolute;left:0;right:0;bottom:-27px;z-index:1;transition:all .3s}
+.product-grid:hover .product-content{bottom:0}
+.product-grid .title{font-size:13px;letter-spacing:.5px;}
+
+.product-grid .title a{color: navy}
+
+
+.product-grid .price{color:black;font-size:17px;font-family:Montserrat,sans-serif;font-weight:700;letter-spacing:.6px}
+
+
+.product-grid .price span{color:black;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display: block}
+
+
+
+
+
+
+
+
+
+.product-grid .add-to-cart{color:navy;font-size:13px;font-weight:600}
+
+.product-grid{margin-bottom:10px}
+
+
+
+
+
+
+
+ 
+
+.page_nav {
+	display: table;
+	margin: 0px auto 55px;
+}
+
+.page_nav a {
+	margin: -10px 2px;
+	background: #000;
+	color: #fff;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+}
+
+.page_nav a:hover {
+	background: navy;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
